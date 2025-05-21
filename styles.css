@@ -1,0 +1,43 @@
+body {
+  background-color: #add8e6; /* Light blue */
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.profile-card {
+  background: #fff;
+  border: 2px solid #003366;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 40px 32px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 0;
+  color: #003366; /* Dark blue */
+}
+
+h2 {
+  font-size: 32px;
+  margin-top: 16px;
+  color: #708090; /* Slate grey */
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 32px;
+  color: #222;
+}
